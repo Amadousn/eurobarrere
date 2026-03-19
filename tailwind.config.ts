@@ -11,10 +11,13 @@ const config: Config = {
       colors: {
         primary: '#0D0D0D',
         surface: '#1C1C1C',
-        accent: '#C0392B',
+        accent: '#C0504D',
         steel: '#7F8C8D',
         light: '#F0EDE8',
-        'text-muted': '#9A9590',
+        text: {
+          DEFAULT: '#F0EDE8',
+          muted: '#9A9590',
+        },
       },
       fontFamily: {
         display: ['var(--font-barlow-condensed)', 'sans-serif'],
