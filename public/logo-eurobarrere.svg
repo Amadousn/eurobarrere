@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="currentColor">
+  <path d="M250 50 L550 50 L650 200 L550 350 L250 350 L150 200 Z M280 90 L520 90 L600 200 L520 310 L280 310 L200 200 Z" stroke="currentColor" stroke-width="20" fill="none"/>
+  <text x="400" y="240" font-family="Arial Black, sans-serif" font-size="120" font-weight="900" text-anchor="middle" fill="currentColor">EF</text>
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="48" font-weight="700" text-anchor="middle" fill="currentColor">EUROBARRERE FONDATIONS</text>
+</svg>

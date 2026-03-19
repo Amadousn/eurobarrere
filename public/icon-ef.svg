@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <!-- Hexagone extérieur -->
+  <path d="M250 30 L450 145 L450 355 L250 470 L50 355 L50 145 Z" 
+        stroke="#F0EDE8" 
+        stroke-width="30" 
+        fill="none"
+        stroke-linejoin="miter"/>
+  
+  <!-- Hexagone intérieur -->
+  <path d="M250 80 L410 170 L410 330 L250 420 L90 330 L90 170 Z" 
+        stroke="#F0EDE8" 
+        stroke-width="25" 
+        fill="none"
+        stroke-linejoin="miter"/>
+  
+  <!-- Lettre E (gauche) -->
+  <g fill="#F0EDE8">
+    <!-- Barre horizontale haut -->
+    <polygon points="150,150 240,150 240,185 180,185 180,220 230,220 230,255 180,255 180,290 240,290 240,325 150,325"/>
+  </g>
+  
+  <!-- Lettre F (droite) -->
+  <g fill="#F0EDE8">
+    <!-- Barre horizontale haut -->
+    <polygon points="260,150 350,150 350,185 290,185 290,220 340,220 340,255 290,255 290,325 260,325"/>
+  </g>
+</svg>

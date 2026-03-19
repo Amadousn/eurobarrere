@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Hexagone extérieur -->
+  <path d="M250 50 L550 50 L650 200 L550 350 L250 350 L150 200 Z" 
+        stroke="#F0EDE8" 
+        stroke-width="25" 
+        fill="none"/>
+  
+  <!-- Hexagone intérieur -->
+  <path d="M280 90 L520 90 L600 200 L520 310 L280 310 L200 200 Z" 
+        stroke="#F0EDE8" 
+        stroke-width="20" 
+        fill="none"/>
+  
+  <!-- Lettres EF stylisées -->
+  <g fill="#F0EDE8">
+    <!-- E -->
+    <rect x="300" y="140" width="80" height="25"/>
+    <rect x="300" y="140" width="25" height="120"/>
+    <rect x="300" y="187" width="60" height="25"/>
+    <rect x="300" y="235" width="80" height="25"/>
+    
+    <!-- F -->
+    <rect x="420" y="140" width="80" height="25"/>
+    <rect x="420" y="140" width="25" height="120"/>
+    <rect x="420" y="187" width="60" height="25"/>
+  </g>
+  
+  <!-- Texte EUROBARRERE FONDATIONS -->
+  <text x="400" y="430" 
+        font-family="Arial, sans-serif" 
+        font-size="42" 
+        font-weight="900" 
+        text-anchor="middle" 
+        fill="#F0EDE8"
+        letter-spacing="4">
+    EUROBARRERE FONDATIONS
+  </text>
+</svg>
