@@ -7,13 +7,12 @@ export default function Hero() {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2000&auto=format&fit=crop"
-          alt="Travaux de fondations et construction souterraine professionnelle - Eurobarrere Fondations"
+          src="/images/galerie-carriere-consolidee-ile-de-france.jpg"
+          alt="Travaux souterrains et confortement de carrières - Eurobarrere Fondations"
           fill
           className="object-cover"
           priority
           quality={90}
-          unoptimized
         />
         <div className="absolute inset-0 bg-gradient-to-b from-primary/85 via-primary/70 to-primary/90"></div>
       </div>
@@ -54,9 +53,46 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-light/50 rounded-full flex justify-center pt-2">
-          <div className="w-1 h-3 bg-light/50 rounded-full" />
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
+        <div className="relative animate-bounce">
+          <svg 
+            width="64" 
+            height="64" 
+            viewBox="0 0 64 64" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg"
+            className="text-accent drop-shadow-lg"
+          >
+            {/* Poignée supérieure */}
+            <rect x="26" y="8" width="12" height="4" fill="currentColor" rx="2"/>
+            
+            {/* Corps principal de la foreuse */}
+            <rect x="24" y="12" width="16" height="20" fill="currentColor" rx="2"/>
+            <rect x="22" y="16" width="20" height="12" fill="currentColor" opacity="0.8" rx="1"/>
+            
+            {/* Poignées latérales */}
+            <path d="M20 18 L16 20 L16 26 L20 28" stroke="currentColor" strokeWidth="3" strokeLinecap="round" fill="none"/>
+            <path d="M44 18 L48 20 L48 26 L44 28" stroke="currentColor" strokeWidth="3" strokeLinecap="round" fill="none"/>
+            
+            {/* Détails moteur */}
+            <circle cx="32" cy="22" r="3" fill="#1C1C1C"/>
+            <rect x="28" y="26" width="8" height="2" fill="#1C1C1C" opacity="0.6"/>
+            
+            {/* Mandrin */}
+            <rect x="28" y="32" width="8" height="6" fill="currentColor" rx="1"/>
+            <circle cx="32" cy="35" r="2" fill="#1C1C1C"/>
+            
+            {/* Mèche de forage (spirale) */}
+            <path d="M30 38 L30 52 M34 38 L34 52" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"/>
+            <path d="M30 40 Q32 42 30 44 Q28 46 30 48 Q32 50 30 52" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+            <path d="M34 40 Q32 42 34 44 Q36 46 34 48 Q32 50 34 52" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+            
+            {/* Pointe de forage */}
+            <path d="M28 52 L32 56 L36 52" fill="currentColor"/>
+          </svg>
+          
+          {/* Effet de vibration/poussière */}
+          <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-16 h-2 bg-accent/40 blur-md animate-pulse" />
         </div>
       </div>
     </section>
