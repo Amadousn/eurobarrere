@@ -4,12 +4,12 @@ import { MapPin, Phone, Mail } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#111] text-light pt-16 pb-8">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+    <footer className="bg-[#111] text-light pt-12 sm:pt-16 pb-6 sm:pb-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-10 md:gap-12 mb-8 sm:mb-12">
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="relative w-10 h-10 flex-shrink-0">
+            <div className="flex items-center gap-2 sm:gap-3 mb-4">
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0">
                 <Image
                   src="/icon-ef.svg"
                   alt="EF"
@@ -17,7 +17,7 @@ export default function Footer() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="font-display text-xl font-bold text-accent">
+              <h3 className="font-display text-lg sm:text-xl font-bold text-accent">
                 EUROBARRERE FONDATIONS
               </h3>
             </div>
@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-display text-lg font-bold mb-4 uppercase tracking-wide">
+            <h4 className="font-display text-base sm:text-lg font-bold mb-3 sm:mb-4 uppercase tracking-wide">
               Services
             </h4>
             <ul className="space-y-2">
@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-display text-lg font-bold mb-4 uppercase tracking-wide">
+            <h4 className="font-display text-base sm:text-lg font-bold mb-3 sm:mb-4 uppercase tracking-wide">
               Informations légales
             </h4>
             <ul className="space-y-2 text-text-muted text-sm">
@@ -66,7 +66,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-display text-lg font-bold mb-4 uppercase tracking-wide">
+            <h4 className="font-display text-base sm:text-lg font-bold mb-3 sm:mb-4 uppercase tracking-wide">
               Contact
             </h4>
             <ul className="space-y-3">
@@ -90,9 +90,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-steel/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-text-muted text-sm">
+        <div className="border-t border-steel/20 pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4 text-text-muted text-xs sm:text-sm">
           <p>&copy; {new Date().getFullYear()} Eurobarrere Fondations. Tous droits réservés.</p>
-          <div className="flex gap-6">
+          <div className="flex gap-4 sm:gap-6">
             <Link href="/mentions-legales" className="hover:text-accent transition-colors duration-200">
               Mentions légales
             </Link>

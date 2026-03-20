@@ -17,35 +17,36 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-primary/85 via-primary/70 to-primary/90"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center">
-        <div className="inline-block mb-6 px-4 py-2 bg-accent/20 border-l-4 border-accent">
-          <span className="text-light text-sm font-bold uppercase tracking-widest">
-            30+ ans d'expérience • Paris & Île-de-France
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="inline-block mb-4 sm:mb-6 px-3 sm:px-4 py-2 bg-accent/20 border-l-4 border-accent">
+          <span className="text-light text-xs sm:text-sm font-bold uppercase tracking-wide sm:tracking-widest">
+            30+ ans d'expérience • Paris & IDF
           </span>
         </div>
 
-        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-black text-light mb-6 leading-none">
+        <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-light mb-4 sm:mb-6 leading-none">
           FONDATIONS
           <br />
           <span className="text-accent">SPÉCIALES</span>
         </h1>
 
-        <p className="text-text-muted text-lg md:text-xl max-w-2xl mx-auto mb-12 font-body font-light">
+        <p className="text-text-muted text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-8 sm:mb-12 font-body font-light px-4">
           Expert en reprise en sous-œuvre, confortement de carrières et travaux souterrains en Île-de-France
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center px-4">
           <Link
             href="/contact"
-            className="group bg-accent text-light px-8 py-4 font-bold uppercase tracking-wide flex items-center gap-3 hover:bg-accent/90 transition-all duration-200"
+            className="group bg-accent text-light px-6 sm:px-8 py-3 sm:py-4 font-bold uppercase tracking-wide flex items-center justify-center gap-2 sm:gap-3 hover:bg-accent/90 transition-all duration-200 text-sm sm:text-base"
             style={{ borderRadius: '2px' }}
           >
-            Demander un devis gratuit
-            <ArrowRight className="group-hover:translate-x-1 transition-transform duration-200" size={20} />
+            <span className="hidden xs:inline">Demander un devis gratuit</span>
+            <span className="xs:hidden">Devis gratuit</span>
+            <ArrowRight className="group-hover:translate-x-1 transition-transform duration-200" size={18} />
           </Link>
           <Link
             href="/prestations"
-            className="bg-transparent border-2 border-light text-light px-8 py-4 font-bold uppercase tracking-wide hover:bg-light hover:text-primary transition-all duration-200"
+            className="bg-transparent border-2 border-light text-light px-6 sm:px-8 py-3 sm:py-4 font-bold uppercase tracking-wide hover:bg-light hover:text-primary transition-all duration-200 text-sm sm:text-base text-center"
             style={{ borderRadius: '2px' }}
           >
             Nos prestations
@@ -53,15 +54,15 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
+      <div className="absolute bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 hidden sm:block">
         <div className="relative animate-bounce">
           <svg 
-            width="64" 
-            height="64" 
+            width="48" 
+            height="48"
             viewBox="0 0 64 64" 
             fill="none" 
             xmlns="http://www.w3.org/2000/svg"
-            className="text-accent drop-shadow-lg"
+            className="sm:w-16 sm:h-16 text-accent drop-shadow-lg"
           >
             {/* Poignée supérieure */}
             <rect x="26" y="8" width="12" height="4" fill="currentColor" rx="2"/>
